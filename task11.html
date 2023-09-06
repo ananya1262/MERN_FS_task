@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task11</title>
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        form
+        {
+            border: 1px solid #f1f1f1;
+            width: 30%;
+        }
+        input[type=text], input[type=password] 
+        {
+            width: 100%;
+            padding: 10px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button 
+        {
+            background-color: #0dab71;
+            color: white;
+            padding: 14px 20px;
+            margin: 9px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        .cancelbtn 
+        {
+            width: auto;
+            padding: 10px 18px;
+            background-color: #f04a3e;
+        }
+        .img_container 
+        {
+            text-align: center;
+            margin: 20px 0 12px 0;
+        }
+        img.image 
+        {
+            width: 50%;
+            border-radius: 50%;
+        }
+        .container 
+        {
+            padding: 16px;
+        }
+        .psw 
+        {
+            float: right;
+            padding-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <form class="c2">
+        <div class="img_container">
+        <img src="./image.jpg" alt="image" class="image">
+        </div>
+
+        <div class="container">
+        <label for="name"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="name" required>
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+        <button type="submit">Login</button>
+        <label>
+        <input type="checkbox" checked="checked" name="rememberme"> Remember me
+        </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+        </form>
+</body>
+</html>

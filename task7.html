@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .c1
+        {
+            width:175px;
+            list-style-type: none;
+            padding-left:5px;
+            padding-top: 5px;
+            padding-right: 5px;
+            margin-left:3px;
+            border: 1px solid black;
+        }
+
+        .c3,#id1
+        {
+            font-size: 20px;
+            display: block;
+            text-decoration: none;
+            padding:10px;
+            background-color: skyblue;
+            color: blue;
+        }
+
+        .c3:hover
+        {
+            background-color: orange;
+            color: white;
+        }
+
+        #id1
+        {
+            background-color: orange;
+            color: white;
+        }
+
+        .c2
+        {
+            width:300px;
+            padding-left:3px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-left:3px;
+            overflow: auto;
+            border: 1px solid black;
+        }
+
+        .c4,#id2
+        {
+            font-size: 15px;
+            text-decoration: none;
+            color: blue;
+            background-color:lightgrey;
+            display:block;
+            padding:10px;
+        }
+
+        .c4:hover
+        {
+            background-color: gray;
+            color: white;
+        }
+
+        #id2
+        {
+            background-color: gray;
+            color: white;
+        }
+
+        .c5
+        {
+            float: left;
+            border-right:1px solid blue;
+
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td width="45%">
+                <h4>Vertical Navigation Bar</h4>
+                    <table class="c1">
+                        <tr>
+                            <td>
+                                <a href="https://www.w3schools.com/" target="_blank" id="id1">Home</a>
+                                <a href="https://www.w3schools.com/java/default.asp" target="_blank" class="c3">Java</a>
+                                <a href="https://www.w3schools.com/css/default.asp" target="_blank" class="c3">CSS</a>
+                                <a href="https://www.w3schools.com/html/default.asp" target="_blank" class="c3">HTML</a>
+                                <a href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp" target="_blank" class="c3">Bootstrap</a>
+                            </td>
+                        </tr>
+                    </table>
+            </td>
+
+            <td>
+                <h4 align="center">Horizontal Navigation Bar</h4>
+                    <table class="c2">
+                        <tr>
+                            <td class="c5">
+                                <a href="https://www.w3schools.com/" target="_blank" id="id2">Home</a>
+                            </td>
+                            <td class="c5">
+                                <a href="https://www.w3schools.com/java/default.asp" target="_blank" class="c4">Java</a>
+                            </td>
+                            <td class="c5">
+                                <a href="https://www.w3schools.com/html/default.asp" target="_blank" class="c4">HTML</a>
+                            </td>
+                            <td class="c5">
+                                <a href="https://www.w3schools.com/css/default.asp" target="_blank" class="c4">CSS</a>
+                            </td>
+                        </tr>
+                    </table>
+
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
